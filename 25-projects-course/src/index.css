@@ -1,0 +1,15 @@
+.root-nav {
+  margin: 5px;
+  display: flex;
+  gap: 5px;
+}
+
+.root-nav-btn Button {
+  font-size: smaller;
+  border-radius: 5px;
+}
+
+.root-hr {
+  margin: 0px;
+  padding: 0px;
+}
