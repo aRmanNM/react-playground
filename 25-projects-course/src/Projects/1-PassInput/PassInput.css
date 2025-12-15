@@ -1,0 +1,37 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background: #ffe3f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-fields {
+    width: 330px;
+    height: 60px;
+    background: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+}
+
+.input-fields input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: hidden;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.input-fields span {
+    line-height: 1;
+    color: #888;
+    font-size: 24px;
+    cursor: pointer;
+}

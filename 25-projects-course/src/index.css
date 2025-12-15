@@ -1,6 +1,19 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+*:focus {
+  outline: 0px none transparent;
+}
+
 .root-nav {
+  height: 30px;
+  direction: ltr;
   margin: 5px;
   display: flex;
+  align-items: center;
   gap: 5px;
 }
 

@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import PassInput from "./Projects/PassInput";
+import PassInput from "./Projects/1-PassInput/PassInput";
 import Home from "./Home";
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <>
       <div className="root-nav">
         <a className="root-nav-btn" href="/"><button>home</button></a>
-        <a className="root-nav-btn" href="/pass-input"><button>1-pass_input</button></a>
+        <a className="root-nav-btn" href="/pass-input"><button>pass-input</button></a>
       </div>
 
       <hr className="root-hr"/>
