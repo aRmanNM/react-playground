@@ -1,0 +1,58 @@
+.quote-root {
+    direction: rtl;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    height: 100vh;
+}
+
+.quote-container {
+    background: #f8f8f8;
+    margin-top: 50px;
+    width: 700px;
+    padding: 30px;
+}
+
+h3 {
+    padding-top: 30px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    margin-left: 10px;
+}
+
+form input {
+    border: 1px solid rgb(235, 235, 235);
+    padding: 7px;
+}
+
+form button {
+    border: none;
+    background: #c00;
+    margin-right: 20px;
+    color: #fff;
+    padding: 7px;
+}
+
+article {
+    text-align: right;
+    margin-top: 30px;
+}
+
+.quote-item {
+    margin: 50px 0;
+}
+
+.quote-item h5 {
+    font-size: 15px;
+}
+
+.quote-item p {
+    font-size: 15px;
+    text-align: left;
+    color: grey;
+}

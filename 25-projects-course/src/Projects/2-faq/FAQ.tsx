@@ -7,8 +7,8 @@ export default function FAQ() {
   const [questions, setQuestions] = useState(faqs);
 
   return (
-    <div className="faq">
-      <div className="container">
+    <div className="faq-root">
+      <div className="faq-container">
         <h3>سوالات متداول (FAQ)</h3>
         <p>در این بخش به برخی از سوالات متداول کاربران پاسخ داده شده است.</p>
         <div className="info">
