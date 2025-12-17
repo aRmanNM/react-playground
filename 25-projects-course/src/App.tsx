@@ -3,6 +3,7 @@ import PassInput from "./Projects/1-PassInput/PassInput";
 import Home from "./Home";
 import FAQ from "./Projects/2-faq/FAQ";
 import Quote from "./Projects/3-quote/Quote";
+import NavBar from "./Projects/4-navbar/Navbar";
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
         <a className="root-nav-btn" href="/quote">
           <button>quote</button>
         </a>
+        <a className="root-nav-btn" href="/navbar">
+          <button>navbar</button>
+        </a>
       </div>
 
       <hr className="root-hr" />
@@ -29,6 +33,7 @@ function App() {
         <Route path="/pass-input" element={<PassInput />}></Route>
         <Route path="/faq" element={<FAQ />}></Route>
         <Route path="/quote" element={<Quote />}></Route>
+        <Route path="/navbar" element={<NavBar />}></Route>
       </Routes>
     </>
   );
