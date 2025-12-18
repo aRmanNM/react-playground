@@ -32,6 +32,43 @@
   text-align: center;
 }
 
+.reviews .review-item {
+  will-change: transform, opacity;
+  animation-duration: 320ms;
+  animation-timing-function: ease;
+  animation-fill-mode: both;
+}
+
+.reviews.next .review-item {
+  animation-name: slide-in-right;
+}
+
+.reviews.prev .review-item {
+  animation-name: slide-in-left;
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(24px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-left {
+  from {
+    transform: translateX(-24px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 .review-item {
   display: flex;
   flex-direction: column;
