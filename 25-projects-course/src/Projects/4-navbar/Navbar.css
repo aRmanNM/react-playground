@@ -3,7 +3,7 @@
   display: flex;
   align-items: start;
   justify-content: center;
-  height: 100vh;
+  height: calc(100% - 41px); /* consider root-nav height + 1px for hr */
   background: #f8f8f8;
 }
 

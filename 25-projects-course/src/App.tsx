@@ -4,6 +4,7 @@ import Home from "./Home";
 import FAQ from "./Projects/2-faq/FAQ";
 import Quote from "./Projects/3-quote/Quote";
 import NavBar from "./Projects/4-navbar/Navbar";
+import Reviews from "./Projects/5-reviews/Reviews";
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
         <a className="root-nav-btn" href="/navbar">
           <button>navbar</button>
         </a>
+        <a className="root-nav-btn" href="/reviews">
+          <button>reviews</button>
+        </a>
       </div>
 
       <hr className="root-hr" />
@@ -34,6 +38,7 @@ function App() {
         <Route path="/faq" element={<FAQ />}></Route>
         <Route path="/quote" element={<Quote />}></Route>
         <Route path="/navbar" element={<NavBar />}></Route>
+        <Route path="/reviews" element={<Reviews />}></Route>
       </Routes>
     </>
   );

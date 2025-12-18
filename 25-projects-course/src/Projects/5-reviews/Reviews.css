@@ -1,0 +1,89 @@
+.reviews-root {
+  direction: rtl;
+  height: calc(100% - 41px); /* consider root-nav height + 1px for hr */
+  padding: 0;
+  margin: 0;
+}
+
+.reviews-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.reviews-container h2 {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid crimson;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 20px;
+  /* box-shadow: 0 0 10px rgba(131, 131, 131, 0.1); */
+  background: #fff;
+  height: 400px;
+  text-align: center;
+}
+
+.review-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review-item .avatar {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.review-item .quote {
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  color: white;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  background-color: crimson;
+}
+
+.review-item img {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 150px;
+}
+
+.review-item h4 {
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.review-item .job {
+  color: crimson;
+}
+
+.review-item .info {
+  color: rgb(87, 87, 87)
+}
+
+.reviews-nav {
+  margin-top: auto;
+}
+
+.reviews-nav button {
+  bottom: 10px;
+  border: none;
+  background: none;
+}
+
+
