@@ -1,0 +1,33 @@
+.scroll-root {
+  direction: rtl;
+  height: calc(100% - 41px - 10px); /* consider root-nav height + 1px for hr */
+  padding: 0;
+  margin: 0;
+}
+
+.scroll-container {
+  height: 100%;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.scroll-container section {
+  height: 100%;
+  scroll-snap-align: start;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.indicator {
+    background: darkgray;
+    height: 10px;
+}
+
+.indicator-progress {
+    width: 0;
+    background: crimson;
+    height: 10px;
+}

@@ -5,6 +5,7 @@ import FAQ from "./Projects/2-faq/FAQ";
 import Quote from "./Projects/3-quote/Quote";
 import NavBar from "./Projects/4-navbar/Navbar";
 import Reviews from "./Projects/5-reviews/Reviews";
+import Scroll from "./Projects/6-ScrollIndicator/Scroll";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
           <button>home</button>
         </a>
         <a className="root-nav-btn" href="/pass-input">
-          <button>pass-input</button>
+          <button>pass</button>
         </a>
         <a className="root-nav-btn" href="/faq">
           <button>faq</button>
@@ -28,6 +29,9 @@ function App() {
         <a className="root-nav-btn" href="/reviews">
           <button>reviews</button>
         </a>
+        <a className="root-nav-btn" href="/scroll">
+          <button>scroll</button>
+        </a>
       </div>
 
       <hr className="root-hr" />
@@ -39,6 +43,7 @@ function App() {
         <Route path="/quote" element={<Quote />}></Route>
         <Route path="/navbar" element={<NavBar />}></Route>
         <Route path="/reviews" element={<Reviews />}></Route>
+        <Route path="/scroll" element={<Scroll />}></Route>
       </Routes>
     </>
   );
