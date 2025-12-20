@@ -6,6 +6,7 @@ import Quote from "./Projects/3-quote/Quote";
 import NavBar from "./Projects/4-navbar/Navbar";
 import Reviews from "./Projects/5-reviews/Reviews";
 import Scroll from "./Projects/6-ScrollIndicator/Scroll";
+import Gallery from "./Projects/7-gallery/Gallery";
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
         <a className="root-nav-btn" href="/scroll">
           <button>scroll</button>
         </a>
+        <a className="root-nav-btn" href="/gallery">
+          <button>gallery</button>
+        </a>
       </div>
 
       <hr className="root-hr" />
@@ -44,6 +48,7 @@ function App() {
         <Route path="/navbar" element={<NavBar />}></Route>
         <Route path="/reviews" element={<Reviews />}></Route>
         <Route path="/scroll" element={<Scroll />}></Route>
+        <Route path="/gallery" element={<Gallery />}></Route>
       </Routes>
     </>
   );
