@@ -7,6 +7,7 @@ import NavBar from "./Projects/4-navbar/Navbar";
 import Reviews from "./Projects/5-reviews/Reviews";
 import Scroll from "./Projects/6-ScrollIndicator/Scroll";
 import Gallery from "./Projects/7-gallery/Gallery";
+import Mode from "./Projects/9-DarkMode/Mode";
 
 function App() {
   return (
@@ -36,6 +37,9 @@ function App() {
         <a className="root-nav-btn" href="/gallery">
           <button>gallery</button>
         </a>
+        <a className="root-nav-btn" href="/mode">
+          <button>mode</button>
+        </a>
       </div>
 
       <hr className="root-hr" />
@@ -49,6 +53,7 @@ function App() {
         <Route path="/reviews" element={<Reviews />}></Route>
         <Route path="/scroll" element={<Scroll />}></Route>
         <Route path="/gallery" element={<Gallery />}></Route>
+        <Route path="/mode" element={<Mode />}></Route>
       </Routes>
     </>
   );
