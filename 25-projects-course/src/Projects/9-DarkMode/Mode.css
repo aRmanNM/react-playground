@@ -1,17 +1,16 @@
 .mode-root {
   direction: rtl;
-  height: calc(100% - 41px); /* consider root-nav height + 1px for hr */
+  height: 100vh;
   padding: 0;
   margin: 0;
-  font-family: "Courier New", Courier, monospace;
   font-size: small;
 }
 
-.mode-container {
+/* .mode-container {
   height: 100%;
   padding: 0;
   margin: 0;
-}
+} */
 
 .mode-container {
   .header {
@@ -85,7 +84,7 @@
 .content {
   display: flex;
   flex-direction: column;
-  padding: 120px 0;
+  margin: 120px 0;
   text-align: center;
 
   .heading {
@@ -101,6 +100,7 @@
   .mode-card-item {
     width: calc(33.33% - 20px);
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
 
     img {
       width: 100%;

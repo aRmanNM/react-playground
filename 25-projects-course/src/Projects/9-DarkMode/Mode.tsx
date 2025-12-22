@@ -22,8 +22,8 @@ export default function Mode() {
   }, [checked]);
 
   return (
-    <div className="mode-root">
-      <div className={checked ? "mode-container dark-mode" : "mode-container"}>
+    <div className={checked ? "mode-root dark-mode" : "mode-root"}>
+      <div className="mode-container">
         <header className="header">
           <div className="nav">
             <ul>

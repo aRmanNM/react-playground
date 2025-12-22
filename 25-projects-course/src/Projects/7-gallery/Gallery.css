@@ -35,7 +35,7 @@
 
 .gallery-header {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding: 20px 300px;
   box-shadow: 0 0 10px rgba(117, 117, 117, 0.3);
 }
