@@ -8,6 +8,7 @@ import Reviews from "./Projects/5-reviews/Reviews";
 import Scroll from "./Projects/6-ScrollIndicator/Scroll";
 import Gallery from "./Projects/7-gallery/Gallery";
 import Mode from "./Projects/9-DarkMode/Mode";
+import SidebarHome from "./Projects/10-sidebar/Home";
 
 function App() {
   return (
@@ -40,6 +41,9 @@ function App() {
         <a className="root-nav-btn" href="/mode">
           <button>mode</button>
         </a>
+        <a className="root-nav-btn" href="/sidebar">
+          <button>sidebar</button>
+        </a>
       </div>
 
       <hr className="root-hr" />
@@ -54,6 +58,7 @@ function App() {
         <Route path="/scroll" element={<Scroll />}></Route>
         <Route path="/gallery" element={<Gallery />}></Route>
         <Route path="/mode" element={<Mode />}></Route>
+        <Route path="/sidebar" element={<SidebarHome />}></Route>
       </Routes>
     </>
   );

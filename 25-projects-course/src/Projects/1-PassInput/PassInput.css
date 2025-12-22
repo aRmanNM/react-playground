@@ -29,7 +29,7 @@
 }
 
 .input-fields span {
-    line-height: 1;
+    line-height: 0;
     color: #888;
     font-size: 24px;
     cursor: pointer;
